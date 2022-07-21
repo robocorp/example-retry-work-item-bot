@@ -1,0 +1,12 @@
+tasks:
+  Retry failed work items:
+    robotTaskName: Retry Failed Work Items
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
